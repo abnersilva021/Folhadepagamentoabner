@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+              <Component id="btGerar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              <Component id="lbClean" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbValorH" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtValorH" alignment="0" min="-2" pref="85" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbFilhos" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtFilhos" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="txtNome" alignment="0" min="-2" pref="315" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbHE" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="lbHoras" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtHoras" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtHE" alignment="1" min="-2" pref="128" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lbTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Component id="lbTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbHoras" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHoras" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbValorH" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbFilhos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbHE" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtValorH" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFilhos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHE" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btGerar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbClean" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="txtHoras">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbHE">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Cambria Math" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Quant. horas extras"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHE">
+    </Component>
+    <Component class="javax.swing.JButton" name="btGerar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="26" green="f1" red="1f" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Cambria Math" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Gerar folha"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btGerarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="lbClean">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="21" green="21" red="db" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Cambria Math" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lbCleanActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="47" pref="47" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="lbQuantH" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="lbHorasR" min="-2" pref="65" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lbQuantHE" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="95" max="32767" attributes="0"/>
+                                  <Component id="lbHER" min="-2" pref="53" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lbVHE" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lbVHER" min="-2" pref="62" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="110" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lbFuncionario" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lbNomeR" min="-2" pref="259" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="lbRIR" alignment="1" min="-2" pref="55" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbINSS" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lbINSSR" min="-2" pref="38" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbHolerite" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="lbSalarioB" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lbRSalarioB" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lbIR" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lbSalL" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lbRSalL" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lbSalF" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lbSalFR" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Component id="lbHolerite" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbFuncionario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbNomeR" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbQuantH" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbQuantHE" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbHorasR" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbHER" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbVHE" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbVHER" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbSalarioB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbRSalarioB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbINSS" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbINSSR" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbSalF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbSalFR" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="lbIR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbSalL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbRSalL" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lbRIR" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="50" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbHolerite">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Holerite - Maio/2023"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbFuncionario">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Funcion&#xe1;rio: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbQuantH">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Quant. horas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbQuantHE">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Quant. horas extras:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalarioB">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sal&#xe1;rio bruto:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbVHE">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Valor horas extras:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbINSS">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Desconto INSS:  R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalF">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Valor sal. fam&#xed;lia:  R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIR">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Desconto IR:  R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalL">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sal&#xe1;rio liquido:  R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbRSalarioB">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbVHER">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalFR">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbHorasR">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbHER">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbINSSR">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbNomeR">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbRIR">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbRSalL">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria Math" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lbTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Cambria Math" size="20" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FOLHA DE PAGAMENTO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNome">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Cambria Math" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Funcion&#xe1;rio (nome)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNome">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbValorH">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Cambria Math" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Valor hora"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtValorH">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbFilhos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Cambria Math" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Quant. filhos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFilhos">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbHoras">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Cambria Math" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Quant. horas"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
